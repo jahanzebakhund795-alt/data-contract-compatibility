@@ -1,0 +1,26 @@
+{
+  "old": {
+    "order_id": {
+      "type": "string",
+      "required": true
+    },
+    "amount": {
+      "type": "integer",
+      "required": true
+    }
+  },
+  "new": {
+    "order_id": {
+      "type": "string",
+      "required": true
+    },
+    "amount": {
+      "type": "string",
+      "required": true
+    },
+    "currency": {
+      "type": "string",
+      "required": false
+    }
+  }
+}

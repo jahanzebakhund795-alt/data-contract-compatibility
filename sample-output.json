@@ -1,0 +1,10 @@
+{
+  "compatible": false,
+  "issues": [
+    {
+      "field": "amount",
+      "issue": "type_changed"
+    }
+  ],
+  "policy": "existing consumers and producers; additive optional fields allowed"
+}
